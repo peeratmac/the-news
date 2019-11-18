@@ -7,15 +7,11 @@ class App extends Component {
     super();
     this.state = {
       local
-    }
+    };
   }
 
-  render () {
-    return (
-      <div className="app">
-        YOUR CODE GOES HERE!
-      </div>
-    );
+  render() {
+    return <div className='app'>YOUR CODE GOES HERE!</div>;
   }
 }
 
