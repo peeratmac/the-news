@@ -10,6 +10,14 @@ class App extends Component {
     };
   }
 
+  async componentDidMount() {
+    const response = await fetch(
+      'https://whats-new-api.herokuapp.com/api/v1/news'
+    );
+    const data = await response.json();
+    console.log(data);
+  }
+
   render() {
     return <div className='app'>YOUR CODE GOES HERE!</div>;
   }
