@@ -6,7 +6,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      local
+      local: [],
+      technology: [],
+      entertainment: [],
+      science: [],
+      health: []
     };
   }
 
@@ -16,6 +20,13 @@ class App extends Component {
     );
     const data = await response.json();
     console.log(data);
+    this.setState({
+      local: data.local,
+      technology: data.technology,
+      entertainment: data.entertainment,
+      science: data.science,
+      health: data.health
+    });
   }
 
   render() {
