@@ -1,5 +1,6 @@
 nav {
   padding-right: 30px;
+  padding-left: 30px;
 }
 
 .the-news-logo {
@@ -9,10 +10,20 @@ nav {
 
 span {
   font-size: 80px;
-  color: blue;
+  color: #ff7979;
 }
 
 h2 {
   cursor: pointer;
+}
+
+h3 {
+  cursor: pointer;
   padding-bottom: 15px;
+}
+
+.icon-image {
+  border-radius: 0px;
+  height: 50px;
+  width: 50px;
 }
