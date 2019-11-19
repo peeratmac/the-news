@@ -11,7 +11,7 @@ class SearchForm extends Component {
 
   handleSearchNews = event => {
     this.setState({ searchInputQuery: event.target.value });
-    this.props.searchNews();
+    this.props.searchNews(event.target.value);
   };
 
   render() {
