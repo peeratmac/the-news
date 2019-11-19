@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import local from '../../data/local';
+import NewsContainer from '../NewsContainer/NewsContainer';
 import './App.css';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
+      selectedNews: [],
       local: [],
       technology: [],
       entertainment: [],
       science: [],
-      health: []
+      health: [],
+      searchNews: []
     };
   }
 
@@ -21,16 +23,22 @@ class App extends Component {
     const data = await response.json();
     console.log(data);
     this.setState({
+      selectedNews: data.technology,
       local: data.local,
       technology: data.technology,
       entertainment: data.entertainment,
       science: data.science,
-      health: data.health
+      health: data.health,
+      searchedNews: data.technology
     });
   }
 
   render() {
-    return <div className='app'>YOUR CODE GOES HERE!</div>;
+    return (
+      <div className='app'>
+        <NewsContainer articles={this.state.selectedNews} />
+      </div>
+    );
   }
 }
 
