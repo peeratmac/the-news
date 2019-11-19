@@ -6,7 +6,7 @@ const NewsArticle = ({ description, headline, image, url }) => {
     <div className='news-article'>
       <h3>{headline}</h3>
       <img src={image} alt={headline} />
-      <p>{description}</p>
+      <p className='description-text'>{description}</p>
       <a href={url}>
         <h2 className='link-to-article'>Link to Article</h2>
       </a>
