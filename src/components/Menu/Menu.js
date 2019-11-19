@@ -6,7 +6,7 @@ const Menu = ({ changeNewsCategory, newsState }) => {
   return (
     <nav>
       <h1 className='the-news-logo'>
-        The <span>News</span>
+        the <span>news</span>
       </h1>
       <div className='menu-side-bar'>
         <h2 onClick={() => changeNewsCategory(local)}>Local News</h2>
