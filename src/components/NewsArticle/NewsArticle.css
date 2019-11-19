@@ -1,0 +1,26 @@
+.news-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin: 20px;
+  border-radius: 20px;
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+a {
+  margin-top: 10px;
+}
+
+h3 {
+  height: 50px;
+}
+
+p {
+  height: 100px;
+  overflow: scroll;
+}
