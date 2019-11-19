@@ -6,8 +6,27 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      local
+      local: [],
+      technology: [],
+      entertainment: [],
+      science: [],
+      health: []
     };
+  }
+
+  async componentDidMount() {
+    const response = await fetch(
+      'https://whats-new-api.herokuapp.com/api/v1/news'
+    );
+    const data = await response.json();
+    console.log(data);
+    this.setState({
+      local: data.local,
+      technology: data.technology,
+      entertainment: data.entertainment,
+      science: data.science,
+      health: data.health
+    });
   }
 
   render() {
