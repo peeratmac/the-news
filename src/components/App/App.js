@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Menu from '../Menu/Menu';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import './App.css';
+import SearchForm from '../SearchForm/SearchForm';
 
 class App extends Component {
   constructor() {
@@ -37,6 +38,15 @@ class App extends Component {
     this.setState({ selectedNews: category, searchedNews: category });
   };
 
+  searchNews = userInput => {
+    const cleanUpUserInput = userInput.toLowerCase();
+    this.setState({
+      selectedNews: this.state.searchedNews.filter(article =>
+        article.headline.toLowerCase().includes(cleanUpUserInput)
+      )
+    });
+  };
+
   render() {
     return (
       <div className='app'>
@@ -44,6 +54,7 @@ class App extends Component {
           changeNewsCategory={this.changeNewsCategory}
           newsState={this.state}
         />
+        <SearchForm searchNews={this.searchNews} />
         <NewsContainer articles={this.state.selectedNews} />
       </div>
     );
