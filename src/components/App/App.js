@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Menu from '../Menu/Menu';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import './App.css';
 
@@ -21,7 +22,6 @@ class App extends Component {
       'https://whats-new-api.herokuapp.com/api/v1/news'
     );
     const data = await response.json();
-    console.log(data);
     this.setState({
       selectedNews: data.technology,
       local: data.local,
@@ -33,9 +33,17 @@ class App extends Component {
     });
   }
 
+  changeNewsCategory = category => {
+    this.setState({ selectedNews: category, searchedNews: category });
+  };
+
   render() {
     return (
       <div className='app'>
+        <Menu
+          changeNewsCategory={this.changeNewsCategory}
+          newsState={this.state}
+        />
         <NewsContainer articles={this.state.selectedNews} />
       </div>
     );
