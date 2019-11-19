@@ -5,7 +5,7 @@ const Menu = ({ changeNewsCategory, newsState }) => {
   const { local, technology, entertainment, science, health } = newsState;
   return (
     <nav>
-      <h1>
+      <h1 className='the-news-logo'>
         The <span>News</span>
       </h1>
       <div className='menu-side-bar'>
