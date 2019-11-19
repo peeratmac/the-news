@@ -38,8 +38,13 @@ class App extends Component {
     this.setState({ selectedNews: category, searchedNews: category });
   };
 
-  searchNews = () => {
-    console.log('searching');
+  searchNews = userInput => {
+    const cleanUpUserInput = userInput.toLowerCase();
+    this.setState({
+      selectedNews: this.state.searchedNews.filter(article =>
+        article.headline.toLowerCase().includes(cleanUpUserInput)
+      )
+    });
   };
 
   render() {
