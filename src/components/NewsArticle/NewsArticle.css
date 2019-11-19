@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 2px solid #ff7979;
 }
 
 img {
@@ -15,13 +16,27 @@ img {
 a {
   margin-top: 10px;
   text-decoration: none;
+  background: #f6e58d;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #ff7979;
 }
 
 h3 {
   height: 50px;
+  font-size: 20px;
 }
 
 p {
   height: 100px;
   overflow: scroll;
+}
+
+.description-text {
+  color: #130f40;
+  font-size: 18px;
 }
