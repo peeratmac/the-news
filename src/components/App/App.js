@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Menu from '../Menu/Menu';
 import NewsContainer from '../NewsContainer/NewsContainer';
 import './App.css';
 
@@ -36,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
+        <Menu />
         <NewsContainer articles={this.state.selectedNews} />
       </div>
     );
