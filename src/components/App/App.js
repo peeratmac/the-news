@@ -54,8 +54,12 @@ class App extends Component {
           changeNewsCategory={this.changeNewsCategory}
           newsState={this.state}
         />
-        <SearchForm searchNews={this.searchNews} />
-        <NewsContainer articles={this.state.selectedNews} />
+        <main>
+          <SearchForm searchNews={this.searchNews} />
+          <div className='news-container'>
+            <NewsContainer articles={this.state.selectedNews} />
+          </div>
+        </main>
       </div>
     );
   }
