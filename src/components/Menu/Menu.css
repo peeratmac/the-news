@@ -12,7 +12,13 @@ span {
   color: #ff7979;
 }
 
-h2 {
+h3 {
   cursor: pointer;
   padding-bottom: 15px;
+}
+
+.icon-image {
+  border-radius: 0px;
+  height: 50px;
+  width: 50px;
 }
