@@ -15,6 +15,10 @@ h1 {
   padding: 30px;
 }
 
+.the-news-logo:hover {
+  background-color: #f39c12;
+}
+
 span {
   font-size: 80px;
   color: #ff7979;

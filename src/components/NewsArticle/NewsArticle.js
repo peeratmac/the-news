@@ -4,7 +4,9 @@ import './NewsArticle.css';
 const NewsArticle = ({ description, headline, image, url }) => {
   return (
     <div className='news-article'>
-      <h3>{headline}</h3>
+      <a href={url}>
+        <h3>{headline}</h3>
+      </a>
       <img src={image} alt={headline} />
       <p className='description-text'>{description}</p>
       <a href={url}>
