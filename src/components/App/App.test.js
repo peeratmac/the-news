@@ -13,7 +13,7 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should update the state of selectedNews and searchedNews when changeNewsCategory is called', () => {
+  it('should be able to update the state of selectedNews and searchedNews', () => {
     const news = [
       {
         description:
