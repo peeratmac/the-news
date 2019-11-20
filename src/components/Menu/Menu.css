@@ -12,11 +12,13 @@ h1 {
   padding-bottom: 30px;
   background: #f6e58d;
   border-radius: 15px;
+  padding: 30px;
 }
 
 span {
   font-size: 80px;
   color: #ff7979;
+  padding: 30px;
 }
 
 h2 {
@@ -27,6 +29,10 @@ h3 {
   cursor: pointer;
   color: #30336b;
   padding-bottom: 15px;
+}
+
+h3:hover {
+  border-bottom: 2px solid #f39c12;
 }
 
 .icon-image {
