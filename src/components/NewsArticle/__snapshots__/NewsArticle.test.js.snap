@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should match the NewsArticle Snapshot 1`] = `
+<div
+  className="news-article"
+>
+  <h3>
+    The Chainsmokers are playing in Denver tonight!
+  </h3>
+  <img
+    alt="The Chainsmokers are playing in Denver tonight!"
+    src="https://github.com/peeratmac"
+  />
+  <p
+    className="description-text"
+  >
+    Push My Luck, Closer, Paris, You Owe Me, Great Songs
+  </p>
+  <a
+    href="https://www.linkedin.com/in/peerats"
+  >
+    <h2
+      className="link-to-article"
+    >
+      Link to Article
+    </h2>
+  </a>
+</div>
+`;

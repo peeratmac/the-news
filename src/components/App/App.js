@@ -48,6 +48,7 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state.selectedNews);
     return (
       <div className='app'>
         <Menu

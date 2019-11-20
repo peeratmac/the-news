@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match the App Snapshot 1`] = `
+<div
+  className="app"
+>
+  <Menu
+    changeNewsCategory={[Function]}
+    newsState={
+      Object {
+        "entertainment": Array [],
+        "health": Array [],
+        "local": Array [],
+        "science": Array [],
+        "searchNews": Array [],
+        "selectedNews": Array [],
+        "technology": Array [],
+      }
+    }
+  />
+  <main>
+    <SearchForm
+      searchNews={[Function]}
+    />
+    <div
+      className="news-container"
+    >
+      <NewsContainer
+        articles={Array []}
+      />
+    </div>
+  </main>
+</div>
+`;

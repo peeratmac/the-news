@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should match the NewsContainer Snapshot 1`] = `
+Array [
+  <NewsArticle
+    description="Any iPhone device from 2011 to 2017 could soon be jailbroken, thanks to an underlying flaw that there's no way to patch."
+    headline="Unfixable iOS Device Exploit Is the Latest Apple Security Upheaval"
+    image="https://media.wired.com/photos/5d8e600f34cab0000861c48d/master/w_2560%2Cc_limit/security_jailbreak_MADEPD.jpg"
+    key="1"
+    url="https://www.wired.com/story/ios-exploit-jailbreak-iphone-ipad/"
+  />,
+  <NewsArticle
+    description="SpaceX has completed joining the bottom and top halves of the Starship orbital-scale prototype it’s building in Boca Chica, Texas."
+    headline="SpaceX’s orbital Starship prototype comes together ahead of update event"
+    image="https://techcrunch.com/wp-content/uploads/2019/09/EFfmFEEU8AA1SmA.jpeg?w=1390&crop=1"
+    key="2"
+    url="https://techcrunch.com/2019/09/27/spacexs-orbital-starship-prototype-comes-together-ahead-of-update-event/"
+  />,
+]
+`;
