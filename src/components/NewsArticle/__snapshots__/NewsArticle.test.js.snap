@@ -4,9 +4,13 @@ exports[`NewsArticle should match the NewsArticle Snapshot 1`] = `
 <div
   className="news-article"
 >
-  <h3>
-    The Chainsmokers are playing in Denver tonight!
-  </h3>
+  <a
+    href="https://www.linkedin.com/in/peerats"
+  >
+    <h3>
+      The Chainsmokers are playing in Denver tonight!
+    </h3>
+  </a>
   <img
     alt="The Chainsmokers are playing in Denver tonight!"
     src="https://github.com/peeratmac"
