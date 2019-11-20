@@ -56,6 +56,6 @@ describe('Menu', () => {
       .at(0)
       .simulate('click');
 
-    expect(mockChangeNewsCategory).toHaveBeenCalled();
+    expect(mockChangeNewsCategory).toHaveBeenCalledWith(mockState.local);
   });
 });
