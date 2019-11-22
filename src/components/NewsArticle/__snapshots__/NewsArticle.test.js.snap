@@ -5,9 +5,12 @@ exports[`NewsArticle should match the NewsArticle Snapshot 1`] = `
   className="news-article"
 >
   <a
+    className="headline"
     href="https://www.linkedin.com/in/peerats"
   >
-    <h3>
+    <h3
+      className="headline"
+    >
       The Chainsmokers are playing in Denver tonight!
     </h3>
   </a>
@@ -21,6 +24,7 @@ exports[`NewsArticle should match the NewsArticle Snapshot 1`] = `
     Push My Luck, Closer, Paris, You Owe Me, Great Songs
   </p>
   <a
+    className="link"
     href="https://www.linkedin.com/in/peerats"
   >
     <h2
