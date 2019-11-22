@@ -24,7 +24,7 @@ describe('SearchForm', () => {
 
   it('should call searchNews when handleSearchNews is called with a change in the input', () => {
     const mockEvent = {
-      target: { value: 'iOS' }
+      target: { value: 'iPhone' }
     };
 
     wrapper.find('input').simulate('change', mockEvent);
