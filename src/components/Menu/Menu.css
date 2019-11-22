@@ -16,7 +16,7 @@ h1 {
 }
 
 .the-news-logo:hover {
-  background-color: #f39c12;
+  background: #f39c12;
 }
 
 span {
@@ -25,22 +25,28 @@ span {
   padding: 30px;
 }
 
-h2 {
-  cursor: pointer;
-}
-
-h3 {
+.category-label {
   cursor: pointer;
   color: #30336b;
-  padding-bottom: 15px;
+  height: auto;
+  padding: 20px;
 }
 
-h3:hover {
-  border-bottom: 2px solid #f39c12;
+.category-label:hover {
+  cursor: pointer;
+  background: #f39c12;
+  border-radius: 10px;
 }
 
 .icon-image {
+  cursor: pointer;
   border-radius: 0px;
   height: 50px;
   width: 50px;
+}
+
+.icon-image:hover {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
 }

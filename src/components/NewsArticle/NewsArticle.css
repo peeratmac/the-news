@@ -13,7 +13,7 @@ img {
   width: 100%;
 }
 
-a {
+.link {
   margin-top: 10px;
   text-decoration: none;
   background: #f6e58d;
@@ -22,13 +22,32 @@ a {
   margin-bottom: 15px;
 }
 
+.link:hover {
+  background: #f39c12;
+}
+
+.link-to-article:hover {
+  color: #130f40;
+}
+
+.headline {
+  background: #f6e58d;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.headline:hover {
+  background: #ff7979;
+}
+
 h2 {
   color: #ff7979;
 }
 
 h3 {
-  height: 50px;
   font-size: 20px;
+  color: #130f40;
 }
 
 p {

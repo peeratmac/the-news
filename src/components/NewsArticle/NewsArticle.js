@@ -4,12 +4,12 @@ import './NewsArticle.css';
 const NewsArticle = ({ description, headline, image, url }) => {
   return (
     <div className='news-article'>
-      <a href={url}>
-        <h3>{headline}</h3>
+      <a className='headline' href={url}>
+        <h3 className='headline'>{headline}</h3>
       </a>
       <img src={image} alt={headline} />
       <p className='description-text'>{description}</p>
-      <a href={url}>
+      <a className='link' href={url}>
         <h2 className='link-to-article'>Link to Article</h2>
       </a>
     </div>
