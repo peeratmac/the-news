@@ -131,7 +131,7 @@ describe('App', () => {
     expect(wrapper.state('selectedNews')).toEqual(expected);
   });
 
-  it.skip('should call the fetch with the correct URL upon mounting', () => {
+  it('should call the fetch with the correct URL upon mounting', async () => {
     const mockNewsData = [
       {
         id: 1,
@@ -165,6 +165,9 @@ describe('App', () => {
         json: () => Promise.resolve(mockResponse)
       });
     });
+
+    const instance = wrapper.instance();
+    await instance.componentDidMount();
 
     expect(window.fetch).toHaveBeenCalledWith(
       'https://whats-new-api.herokuapp.com/api/v1/news'
