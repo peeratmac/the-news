@@ -1,6 +1,7 @@
 import React from 'react';
 import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle';
+import PropTypes from 'prop-types';
 
 const NewsContainer = ({ articles }) => {
   return articles.map(article => (
@@ -15,3 +16,7 @@ const NewsContainer = ({ articles }) => {
 };
 
 export default NewsContainer;
+
+NewsContainer.propTypes = {
+  articles: PropTypes.array.isRequired
+};
