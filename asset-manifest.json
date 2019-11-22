@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/the-news/static/css/main.c7ca6bf9.chunk.css",
+    "main.js": "/the-news/static/js/main.a328d312.chunk.js",
+    "main.js.map": "/the-news/static/js/main.a328d312.chunk.js.map",
+    "runtime-main.js": "/the-news/static/js/runtime-main.fce1a3a8.js",
+    "runtime-main.js.map": "/the-news/static/js/runtime-main.fce1a3a8.js.map",
+    "static/js/2.a526c86e.chunk.js": "/the-news/static/js/2.a526c86e.chunk.js",
+    "static/js/2.a526c86e.chunk.js.map": "/the-news/static/js/2.a526c86e.chunk.js.map",
+    "index.html": "/the-news/index.html",
+    "precache-manifest.3ca671c517942ae34f8d2dc77b2510a1.js": "/the-news/precache-manifest.3ca671c517942ae34f8d2dc77b2510a1.js",
+    "service-worker.js": "/the-news/service-worker.js",
+    "static/css/main.c7ca6bf9.chunk.css.map": "/the-news/static/css/main.c7ca6bf9.chunk.css.map",
+    "static/media/entertainment.svg": "/the-news/static/media/entertainment.cb90c5bd.svg",
+    "static/media/health.svg": "/the-news/static/media/health.3603c3d9.svg",
+    "static/media/local.svg": "/the-news/static/media/local.2ab11f96.svg",
+    "static/media/science.svg": "/the-news/static/media/science.19048a68.svg",
+    "static/media/technology.svg": "/the-news/static/media/technology.2d3f44a1.svg"
+  }
+}
