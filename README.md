@@ -4,6 +4,8 @@
 
 ## [Live Site](https://peeratmac.github.io/the-news)
 
+![1](screenshots/working-product-1.gif)
+
 - News Website displaying different articles based on categories selected, can search through using the search bar for articles in a particular category
 - async/await to fetch in the news articles
 - React
