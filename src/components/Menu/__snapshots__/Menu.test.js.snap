@@ -17,57 +17,72 @@ exports[`Menu should match the Menu Snapshot 1`] = `
       onClick={[Function]}
     >
       <img
+        alt="icon"
         className="icon-image"
         src="local.svg"
       />
        
-      <h3>
+      <p
+        className="category-label"
+      >
         Local News
-      </h3>
+      </p>
     </h2>
     <h2
       onClick={[Function]}
     >
       <img
+        alt="icon"
         className="icon-image"
         src="technology.svg"
       />
-      <h3>
+      <p
+        className="category-label"
+      >
         Technology
-      </h3>
+      </p>
     </h2>
     <h2
       onClick={[Function]}
     >
       <img
+        alt="icon"
         className="icon-image"
         src="entertainment.svg"
       />
-      <h3>
+      <p
+        className="category-label"
+      >
         Entertainment
-      </h3>
+      </p>
     </h2>
     <h2
       onClick={[Function]}
     >
       <img
+        alt="icon"
         className="icon-image"
         src="science.svg"
       />
-      <h3>
+      <p
+        className="category-label"
+      >
         Science
-      </h3>
+      </p>
     </h2>
     <h2
       onClick={[Function]}
     >
       <img
+        alt="icon"
         className="icon-image"
         src="health.svg"
       />
-      <h3>
+      <p
+        className="category-label"
+      >
         Health
-      </h3>
+      </p>
     </h2>
   </div>
 </nav>

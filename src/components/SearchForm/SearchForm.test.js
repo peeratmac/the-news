@@ -22,7 +22,7 @@ describe('SearchForm', () => {
     expect(wrapper.state('searchInputQuery')).toEqual(expected);
   });
 
-  it('should call searchNews when handleSearchNews is called', () => {
+  it('should call searchNews when handleSearchNews is called with a change in the input', () => {
     const mockEvent = {
       target: { value: 'iOS' }
     };
