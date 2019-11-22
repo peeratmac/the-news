@@ -19,4 +19,10 @@
 
 ### Working Product
 
+[!1](screenshots/working-product-1.gif)
+[!2](screenshots/working-product-2.gif)
+
 ### Screenshots
+
+[!3](screenshots/full-screen-1.png)
+[!4](screenshots/full-screen-search-1.png)
