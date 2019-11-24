@@ -6,6 +6,8 @@
 
 ![1](screenshots/working-product-1.gif)
 
+![test-coverage](screenshots/test-coverage.png)
+
 - News Website displaying different articles based on categories selected, can search through using the search bar for articles in a particular category
 - async/await to fetch in the news articles
 - React
